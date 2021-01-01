@@ -33,5 +33,5 @@ const renderer: FunctionComponent<rendererProps> = ({
 };
 
 export const App = () => {
-  return <Countdown date={"2020-01-01T00:00:00"} renderer={renderer} />;
+  return <Countdown date={"2021-01-01T00:00:00"} renderer={renderer} />;
 };
