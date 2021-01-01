@@ -14,14 +14,17 @@ export const GlobalStyles = createGlobalStyle`
   ul { list-style: none; }
   button { background: transparent; border: 0; outline: 0 }
   body {
-    background: #fefefe;
+    background: #ffe4e4;
     height: 100vh;
     margin: 0 auto;
     max-width: 500px;
     overscroll-behavior: none;
     width: 100%;
   }
-
+  p {
+    color: #be5683;
+  }
+  
   #app {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .05);
     overflow-x: hidden;

@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from "react";
 import Countdown from "react-countdown";
 import { WaitBanner } from "components/waitBanner/WaitBanner";
+import { Letter } from "containers/Letter";
 
 interface rendererProps {
   days: number | string;
@@ -18,7 +19,7 @@ const renderer: FunctionComponent<rendererProps> = ({
   completed,
 }) => {
   if (completed) {
-    return <div>Hola Mundo</div>;
+    return <Letter />;
   } else {
     return (
       <WaitBanner
@@ -32,5 +33,5 @@ const renderer: FunctionComponent<rendererProps> = ({
 };
 
 export const App = () => {
-  return <Countdown date={"2021-01-01T00:00:00"} renderer={renderer} />;
+  return <Countdown date={"2020-01-01T00:00:00"} renderer={renderer} />;
 };
