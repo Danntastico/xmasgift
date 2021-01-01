@@ -28,6 +28,7 @@ const ContentContainer = styled.div`
   & > p {
     padding: 10px;
     font-size: 0.9em;
+    color: #be5683;
   }
 `;
 
